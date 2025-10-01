@@ -16,3 +16,17 @@ The React Compiler is not enabled on this template. To add it, see [this documen
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 ## File stracture:
+
+/public
+
+This directory contains static assets that will be served directly without being processed by Vite. Files in this directory will be copied to the build directory during production. It contains:
+
+- vite.svg - The Vite logo, (TODO: replace with your own).
+- /src - This is where this React application code lives:
+- /assets - a directory for storing static assets like images that will be processed by Vite
+- App.jsx - the main React component of the application
+- App.css - styles for the App component
+- main.jsx - the entry point for React application (this file serves the same purpose as index.js or index.jsx in other React setups)
+- index.css - global style
+- index.jsx - entry point
+- main.jsx = Vite default entry point
